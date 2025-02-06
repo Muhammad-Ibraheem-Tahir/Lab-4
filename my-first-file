@@ -1,0 +1,19 @@
+using System;  
+
+class Program  
+{  
+    static void Main()  
+    {  
+        double number1, number2, sum;  
+
+        Console.Write("Enter the first number: ");  
+        number1 = Convert.ToDouble(Console.ReadLine());  
+
+        Console.Write("Enter the second number: ");  
+        number2 = Convert.ToDouble(Console.ReadLine());  
+
+        sum = number1 + number2;  
+
+        Console.WriteLine($"The sum of {number1} and {number2} is {sum}.");  
+    }  
+}
